@@ -813,7 +813,7 @@ void HumanoidLocalization::voxelGridSampling(const PointCloud & pc, pcl::PointCl
      sampledIndices.push_back(ind);
    }
 #else
-   uniformSampling.compute(sampledIndices);
+  //  uniformSampling.compute(sampledIndices);
 #endif
 }
 
